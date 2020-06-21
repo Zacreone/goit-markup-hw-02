@@ -10,9 +10,15 @@ body {
   background-color: #ffffff;
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--active-blue-color);
+}
+
+.top-btn:hover,
+.top-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
 }
 
 .nav-contacts:hover,
@@ -50,8 +56,6 @@ body {
   background-color: var(--active-blue-color);
 }
 
-.aside-link:hover,
-.aside-link:focus {
-  color: var(--white-text-color);
-  background-color: var(--active-blue-color);
+.secondary-card-text {
+  color: var(--secondary-text-color);
 }
