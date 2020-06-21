@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -11,7 +17,7 @@
     <!--ШАПКА-->
     <header>
       <nav>
-        <a href="/">Web Studio</a>
+        <a class="logo" href="/"> <span class="logoblue">Web</span> Studio</a>
 
         <ul>
           <li><a class="nav-link" href="">Студия</a></li>
@@ -33,7 +39,7 @@
     <main>
       <!--ЗАКАЗ УСЛУГИ-->
       <section>
-        <h1>
+        <h1 class="title-text">
           эфективные решения <br />
           для вашего бизнеса
         </h1>
@@ -46,8 +52,8 @@
         <ul>
           <li>
             <a href=""><img src="" alt="" /></a>
-            <h2>Внимание к деталям</h2>
-            <p>
+            <h2 class="advantage">Внимание к деталям</h2>
+            <p class="advantage-p">
               Идейные изображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -55,8 +61,8 @@
 
           <li>
             <a href=""><img src="" alt="" width="270" /></a>
-            <h2>Пунктуальность</h2>
-            <p>
+            <h2 class="advantage">Пунктуальность</h2>
+            <p class="advantage-p">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -64,8 +70,8 @@
 
           <li>
             <a href=""><img src="" alt="" width="270" /></a>
-            <h2>Планирование</h2>
-            <p>
+            <h2 class="advantage">Планирование</h2>
+            <p class="advantage-p">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -73,8 +79,8 @@
 
           <li>
             <a href=""><img src="" alt="" width="270" /></a>
-            <h2>Современные технологии</h2>
-            <p>
+            <h2 class="advantage">Современные технологии</h2>
+            <p class="advantage-p">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -84,33 +90,36 @@
 
       <!--ЧЕМ ЗАНИМАЕМСЯ-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="whatwedo-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href=""><img src="./img/box 1.png" alt="" width="370" /></a>
-            <h2>Десктопные приложения</h2>
+            <p>Десктопные приложения</p>
           </li>
 
           <li>
             <a href=""><img src="./img/box 2.png" alt="" width="370" /></a>
-            <h2>Мобильные приложения</h2>
+            <p>Мобильные приложения</p>
           </li>
 
           <li>
             <a href=""><img src="./img/box 3.png" alt="" width="370" /></a>
-            <h2>Дизайнерские решения</h2>
+            <p>Дизайнерские решения</p>
           </li>
         </ul>
       </section>
 
       <!--КОМАНДА-->
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="team-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./img/img1.jpg" alt="" width="270" />
-            <h3>Николай Кучеренко</h3>
+
+            <h3 class="name-title">Николай Кучеренко</h3>
+
             <p class="team-profession-text">Product Designer</p>
+
             <a class="team-social-link" href=""
               ><img src="" alt="" />instagram</a
             >
@@ -125,8 +134,11 @@
 
           <li>
             <img src="./img/img2.png" alt="" width="270" />
-            <h3>Ольга Иванова</h3>
+
+            <h3 class="name-title">Ольга Иванова</h3>
+
             <p class="team-profession-text">Frontend Developer</p>
+
             <a class="team-social-link" href=""
               ><img src="" alt="" />instagram</a
             >
@@ -141,8 +153,11 @@
 
           <li>
             <img src="./img/img3.png" alt="" width="270" />
-            <h3>Андрей Шевченко</h3>
+
+            <h3 class="name-title">Андрей Шевченко</h3>
+
             <p class="team-profession-text">Marketing</p>
+
             <a class="team-social-link" href=""
               ><img src="" alt="" />instagram</a
             >
@@ -157,8 +172,11 @@
 
           <li>
             <img src="./img/img4.png" alt="" width="270" />
-            <h3>Иван Николаев</h3>
+
+            <h3 class="name-title">Иван Николаев</h3>
+
             <p class="team-profession-text">UI Designer</p>
+
             <a class="team-social-link" href=""
               ><img src="" alt="" />instagram</a
             >
@@ -175,7 +193,7 @@
 
       <!--КЛИЕНТЫ-->
       <section>
-        <h2>Постоянные клиенты</h2>
+        <h2 class="clients-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a class="partners" href=""><img src="" alt="" />Company_1</a>
@@ -203,22 +221,22 @@
     <footer>
       <ul>
         <li>
-          <h3>Web Studio</h3>
+          <h3 class="logo"><span class="logoblue">Web</span> Studio</h3>
         </li>
         <li>
-          <p>г.Киев, пр-т Леси Украинки, 26</p>
+          <p class="footer-adress">г.Киев, пр-т Леси Украинки, 26</p>
         </li>
         <li>
-          <p>info@example.com</p>
+          <p class="footer-contacts">info@example.com</p>
         </li>
         <li>
-          <p>+380991111111</p>
+          <p class="footer-contacts">+380991111111</p>
         </li>
       </ul>
 
       <ul>
         <li>
-          <h3>Присоединяйтесь</h3>
+          <h3 class="footer-connect-title">Присоединяйтесь</h3>
         </li>
         <li>
           <a class="studio-contacts" href=""><img src="" alt="" />instagram</a>
@@ -234,7 +252,7 @@
         </li>
       </ul>
 
-      <h3>подпишитесь на рассылку</h3>
+      <h3 class="footer-join-title">подпишитесь на рассылку</h3>
 
       <a class="join-link" href=""><img src="" alt="" />Подписаться</a>
     </footer>
