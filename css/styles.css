@@ -1,0 +1,57 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #afb1b8;
+  --active-blue-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  color: var(--active-blue-color);
+}
+
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: var(--active-blue-color);
+}
+
+.first-section-btn {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.team-profession-text {
+  color: var(--secondary-text-color);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.partners:hover,
+.partners:focus {
+  color: var(--active-blue-color);
+}
+
+.studio-contacts:hover,
+.studio-contacts:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+.join-link {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
+
+.aside-link:hover,
+.aside-link:focus {
+  color: var(--white-text-color);
+  background-color: var(--active-blue-color);
+}
